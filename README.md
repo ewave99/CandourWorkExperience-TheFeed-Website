@@ -1,5 +1,12 @@
 # Candour Statamic 3 Starter Kit
 
+In the week beginning 26/07/2021 I did work experience at Candour Agency Ltd, Norwich (<https://withcandour.co.uk>).
+I was given a website design for one of their clients, The Feed, and I implemented it as a working webpage from
+one of their Statamic starter kits. Unfortunately at the moment it is only a static page so doesn't actually use
+the installed Statamic CMS, however it was an excellent way to get to know how Statamic works alongside.
+
+***Pre-existing README from the starter repository:***
+
 ## Docker
 We have Docker Compose and Docker Sync set up for this project. The simplest way to get started would be through Docker Compose. The command to get the project running is:
 ```
