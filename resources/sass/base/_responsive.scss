@@ -1,0 +1,9 @@
+/**
+ * Mixin for easy mobile-first media queries
+ */
+
+ @mixin respond($vw) {
+    @media screen and (min-width: $vw) {
+        @content;
+    }
+}

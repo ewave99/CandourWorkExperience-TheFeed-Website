@@ -1,0 +1,8 @@
+name: 'Candour Devs'
+super: true
+id: 20da7cca-2a90-4433-9de1-70862385fb54
+password_hash: $2y$10$iI6CDbxXVv5p2HWZf4UBiuMawvhngihWlE.ZpVw8HDsvSYQMWGNaS
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

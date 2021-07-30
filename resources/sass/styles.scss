@@ -1,0 +1,13 @@
+@import 'base/responsive';
+@import 'base/mixins';
+@import 'base/vars';
+@import 'base/config';
+@import 'base/layout';
+@import 'base/reset';
+@import 'base/typography';
+
+@import '../../node_modules/@glidejs/glide/src/assets/sass/glide.core';
+
+@import 'core-components/header-style';
+@import 'core-components/footer-style';
+@import 'components/article-style';

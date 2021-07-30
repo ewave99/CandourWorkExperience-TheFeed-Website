@@ -1,0 +1,19 @@
+version: "3"
+services:
+  www:
+    build: .
+    volumes:
+      - starter-kit-statamic-sync:/var/www
+      - starter-kit-public-sync:/var/www/html
+    ports:
+      - 8080:80
+    links:
+      - redis
+  redis:
+    image: eqalpha/keydb
+
+volumes:
+  starter-kit-statamic-sync:
+    external: true
+  starter-kit-public-sync:
+    external: true

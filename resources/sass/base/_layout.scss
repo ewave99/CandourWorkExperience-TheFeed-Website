@@ -1,0 +1,28 @@
+@mixin columns() {
+    display: grid;
+    grid-template-columns: 1fr repeat(7, 15px 1fr);
+    -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr
+      15px 1fr;
+
+
+    @include respond(768px) {
+        grid-template-columns: 1fr repeat(11, 15px 1fr);
+        -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr
+        15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
+    }
+
+    @include respond(980px) {
+        grid-template-columns: 1fr repeat(11, 20px 1fr);
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr
+            20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+    }
+}
+
+.columns {
+    @include columns;
+}
+
+// Sections
+section {
+    position: relative;
+}

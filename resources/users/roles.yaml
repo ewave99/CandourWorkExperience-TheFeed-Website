@@ -1,0 +1,12 @@
+seo_user:
+  title: 'SEO User'
+  permissions:
+    - 'configure aardvark settings'
+    - 'view aardvark general settings'
+    - 'view aardvark marketing settings'
+    - 'update aardvark marketing settings'
+    - 'view aardvark sitemap settings'
+    - 'update aardvark sitemap settings'
+    - 'view aardvark defaults settings'
+    - 'update aardvark defaults settings'
+    - 'access cp'

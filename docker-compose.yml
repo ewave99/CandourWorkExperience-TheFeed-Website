@@ -1,0 +1,13 @@
+version: "3"
+services:
+  www:
+    build: .
+    volumes:
+      - .:/var/www
+      - ./public:/var/www/html
+    ports:
+      - 8080:80
+    links:
+      - redis
+  redis:
+    image: eqalpha/keydb
